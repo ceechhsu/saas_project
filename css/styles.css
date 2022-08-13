@@ -1,0 +1,1136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+button {
+    font-size: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+textarea {
+    padding: 1rem;
+}
+
+.selected {
+    color: dodgerblue;
+}
+.topNavbar {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 0.6rem;
+}
+
+.topNav-rightmenu {
+    display: flex;
+    gap: 30px;
+}
+
+i.fa-solid {
+    padding: 5px;
+}
+
+.navbar {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 8px;
+}
+
+.nav-scrolled {
+    padding: 0 20%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: dimgray;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-branding {
+    width: 75px;
+}
+
+.nav-link {
+    transition: 0.7s ease;
+    padding: 5px 10px;
+}
+
+.nav-link.blueButton {
+    background-color: rgb(52, 117, 246);
+    color: white;
+    border-radius: 25px;
+}
+
+.nav-link:hover {
+    color: dodgerblue;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+}
+
+/* Start of Header Section */
+
+.backgroundImageA {
+    width: 100%;
+    height: 450px;
+    background-image: radial-gradient(farthest-corner at 500px 500px, rgb(242,244,248) , white 50%);
+}
+
+.backgroundImageB {
+    width: 100%;
+    height: 450px;
+    background-image: linear-gradient( 115deg, transparent 69%, rgb(238, 241, 246) 69%);
+}
+
+.backgroundImageC {
+    width: 100%;
+    height: 450px;
+    background-image: linear-gradient( 170deg, transparent 71%, white 71%);
+}
+   
+  /* End of Header Section */
+
+  /* Start of Section 1 */
+.section1 {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    /* background: cyan; */
+    gap: 30px;
+    padding-top: 8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1Left {
+    width: 50%;
+    height: 90%;
+}
+
+.section1 .section1Left h1 {
+    font-size: 2.5rem;
+    padding-right: 3rem;
+    line-height: 2.8rem;
+    font-weight: 600;
+}
+
+.section1 .section1Left p {
+    color: grey;
+    padding-right: 3rem;
+    margin-bottom: 1rem;
+    font-size: 12px;
+}
+
+.section1Right {
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+button.playVideo {
+    padding: 3px 8px;
+    background-color: rgb(52, 117, 246);
+    color: white;
+    border-radius: 25px;
+    border: none;
+}
+
+.buttonWithDesc a {
+    margin-left: 20px;
+    color: dodgerblue;
+    font-size: 10px;
+}
+
+.section1Right .logoIcon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 13px -5px grey;
+}
+
+.logoIcon > img {
+    width: 60%;
+    height: 60%;
+}
+
+.logoIcon.icon1 {
+    top: 5px;
+    right: 5px;
+}
+
+.logoIcon.icon2 {
+    top: 10%;
+    right: 45%;
+}
+
+.logoIcon.icon3 {
+    bottom: 30%;
+    right: 0%;
+}
+
+.logoIcon.icon4 {
+    left: 20%;
+    bottom: 40%;
+    width: 40px;
+    height: 40px;
+}
+.logoIcon.icon5 {
+    top: 0;
+    left: 2%;
+    width: 35px;
+    height: 35px;
+}
+
+.logoIcon.icon6 {
+    left: 0%;
+    top: 30%;
+}
+
+.logoIcon.icon7 {
+    top: 30%;
+    right: 25%;
+}
+
+
+  /* End of Section 1 */
+
+/* Start of Section 2 */
+
+.secondSection {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.secondSection h1
+{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.secondSection p {
+    font-size: 0.6rem;
+    color: grey;
+}
+
+.fourCards {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 10px;
+}
+
+.fourCards > card {
+    flex-basis: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    box-shadow: 0 5px 5px 1px lightgray;
+    padding: 10px;
+}
+
+.card h4 {
+    margin-bottom: 5px;
+    font-size: .7rem;
+    font-weight: 600;
+}
+
+.card.card3 h4 span {
+    background-color: rgb(30, 201, 127);
+    color: white;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+.card > img {
+    width: 23%;
+    height: 23%;
+    margin-bottom: 1rem;
+}
+
+.card a {
+    margin-top: 1rem;
+    font-size: 0.6rem;
+    color: dodgerblue;
+}
+
+
+/* End of Section 2 */
+/* Start of Section 3 */
+.thirdSection {
+    background-color: rgb(247, 249, 255);
+    height: auto;
+    margin: 0 20%;
+}
+
+.section3Container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-top: 3rem;
+}
+
+.section3Left {
+    flex-basis: 45%;
+    padding: 3rem 3rem;
+}
+
+.section3Left h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+button.getStarted {
+    padding: 5px 10px;
+    background-color: rgb(52, 117, 246);
+    border-radius: 20px;
+    border: none;
+    margin-top: 1rem;
+    color: white;
+}
+
+.section3Right {
+    flex-basis: 55%;
+    box-shadow: -3px -3px 10px 1px lightgray;
+}
+
+.section3RightImage {
+    width: 100%;
+    height: 100%;
+}
+/* End of Section 3 */
+
+/* Start of Section 4 */
+.fourthSection {
+    margin: 0 10%;
+    margin-top: 5rem;
+}
+
+.section4Container {
+    text-align: center;
+    margin: 0 10%;
+}
+
+.section4Container p {
+    margin: 0 29%;
+    font-size: 0.6rem;
+    color: grey;
+}
+
+.fourDots {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: 3rem auto;
+}
+
+.outsideDot {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(247, 249, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insideDot {
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: dodgerblue;
+    position: relative;
+}
+
+.insideDot h4 {
+    font-size: 0.7rem;
+    font-weight: 600;
+    position: absolute;
+    top: 1.5rem;
+}
+
+.dot1 {
+    width: 7rem;
+    left: -3.5rem;
+}
+
+.dot2 {
+    left: -2.5rem;
+}
+
+.dot3 {
+    width: 10rem;
+    left: -4.5rem;
+}
+
+.dot4 {
+    width: 6rem;
+    left: -3rem;
+}
+
+.line {
+    flex-grow: 1;
+    margin: 0 10px;
+    border-top: 1px solid lightgrey;
+}
+
+.section4Image {
+    margin: 5rem 0;
+}
+
+/* End of Section 4 */
+/* Start of Section 5 */
+
+.fifthSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1218px;
+    margin: 0 auto;
+}
+.section5Top {
+    margin: 0 25%;
+    /* height: 300px; */
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.section5Left {
+    flex-basis: 100%;
+}
+
+.sect5TopImage {
+    position: relative;
+    aspect-ratio: 8 / 9;
+    width: 100%;
+    max-height: 330px
+}
+
+.sect5DotImage {
+    position: absolute;
+    aspect-ratio: 81 / 150;
+    width: 40%;
+    height: auto;
+    position: absolute;
+    left: -27px;
+    bottom: -27px;
+    max-height: 217px;
+    z-index: -1;
+}
+
+.section5Right {
+    margin: auto 0;
+    flex-basis: 100%;
+}
+
+.section5Right .hubspotLogo {
+    width: 5rem;
+}
+
+.section5Right p {
+    font-size: 12px;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+}
+
+.section5Right h5 {
+    font-size: 10px;
+}
+
+.section5Right h6 {
+    font-size: 8px;
+    font-weight: 600;
+    color: gray;
+}
+
+.fifthSection > h6 {
+    font-weight: 600;
+    color: gray;
+}
+
+.section5Bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0 27%;
+}
+
+.sect5CompanyLogo {
+    width: auto;
+    height: 1.3rem;
+}
+
+/* End of Section 5 */
+/* Start of Section 6 */
+.sixthSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sixthSection > h1 {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.sixthSection > p {
+    color: grey;
+    font-size: 0.6rem;
+}
+
+.sixthSectionHR {
+    width: 80%;
+    margin: 5rem 0;
+    border-top: gray;
+}
+
+.section6Bottom {
+    display: flex;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+.section6Left {
+    flex-basis: 40%;
+    box-shadow: 0 5px 5px 1px lightgrey;
+    padding: 1.5rem;
+}
+
+.section6Left hr {
+    border-top: gray;
+    margin: 1rem 0;
+}
+
+.p1 {
+    font-size: 0.6rem;
+    color: grey;
+}
+
+.p2 {
+    font-size: 6px;
+    color: grey;
+}
+
+.pricePerMonth {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.price59 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.section6Left .getStarted {
+    margin: 2rem 0 0.5rem;
+}
+
+.section6Right {
+    flex-basis: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pricingCard {
+    flex-basis: 48%;
+    height: 50%;
+    padding: 1rem;
+}
+
+.pcImage {
+    width: 22px;
+}
+
+.pricingCard p {
+    color: grey;
+    font-size: 0.6rem;
+}
+/* End of Section 6 */
+/* Start of Section 7 */
+.seventhSection {
+    margin: 3rem;
+    background-image: url("../saas-project-assets/abstract/hire-us-transparent-pattern-bg.svg");
+    background-color: rgb(32, 45, 79);
+    border-radius: 5px;
+}
+
+.section7Container {
+    display: flex;
+}
+
+.section7Left {
+    flex-basis: 100%;
+    padding: 0 10% 0 0;
+    margin: auto 0;
+    color: white;
+}
+
+.section7Left h1 {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.section7Left p {
+    color: ghostwhite;
+    font-size: 0.7rem;
+}
+
+.section7Left hr {
+    width: 60%;
+    border-top: gray;
+    margin: 1rem 0;
+}
+
+.section7Left h5  {
+    margin-top: 2rem;
+}
+
+.section7Left h6 {
+    font-weight: 400;
+    color: ghostwhite;
+    margin-bottom: 2rem;
+}
+
+.threePhotos {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.pixSmall {
+    aspect-ratio: 1;
+    width: 25px;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+.pixBig {
+    aspect-ratio: 1;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.section7Right {
+    flex-basis: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.inputForm {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.inputForm input, .inputForm select, textarea {
+    border: 1px solid lightgray;
+    font-family: "Open Sans";
+}
+
+.firstName, .lastName, .workEmail, .website, .budget, .country {
+    flex: 1 1 40%;
+    width: 50%;
+    height: 3rem;
+}
+
+.firstNameinput, .lastNameinput, .workEmailinput, .websiteinput, .selectBudget, .form-control {
+    padding: 0 1rem;
+    border-radius: 5px;
+}
+
+.description {
+    width: 100%;
+    height: 6rem;
+}
+
+.receiveEmail {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.receiveEmail td {
+    vertical-align: top;
+}
+
+.receiveEmail td p {
+    padding-left: 5px;
+    font-size: 0.7rem;
+    color: gray;
+}
+
+.checkReceiveEmail {
+    aspect-ratio: 1;
+    width: 15px;
+}
+
+.dottedU {
+    border-bottom: 1px dotted gray;
+}
+
+.inputForm .submitButton {
+    width: 100%;
+    height: 3rem;
+}
+
+.submitButton .submit {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: rgb(52, 117, 246);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+/* End of Section 7 */
+/* Start of Section 8 */
+.eighthSection {
+    margin: 5rem 0 2rem;
+}
+.eighthSection > p {
+    text-align: center;
+}
+.section8Top {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5rem;
+}
+
+.section8Top .nav-branding {
+    margin-bottom: 1rem;
+}
+
+.section8Top h6 {
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: gray;
+}
+
+i.fa-circle-info, i.fa-circle-user {
+    padding-left: 0;
+}
+
+.section8HR {
+    margin: 3rem 0 1.5rem;
+    border-top: gray;
+
+}
+.section8Bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section8BottomLeft h6 {
+    font-weight: 500;
+    color: gray;
+}
+
+.section8BottomRight {
+    display: flex;
+    gap: .5rem;
+}
+
+.section8BottomRight > * {
+    background-color: rgb(226,229,230);
+    font-size: .7rem;
+    min-width: 1.5rem;
+    max-height: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.footer-1, .footer-2 {
+    font-size: 0.55rem;
+    color: gray;
+}
+
+.footer-1 {
+    margin: 1rem 0;
+}
+
+.footer-2 {
+    margin: 0 6rem;
+}
+
+.arrowUp {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    aspect-ratio: 1;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(226,229,230);
+    font-size: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* End of Section 8 */
+@media (max-width: 768px) {
+/* Top Navbar should be gone */
+
+    .topNavbar {
+        display: none;
+    }
+
+/* End of Top Navbar */
+    .container1 {
+        padding: 0 10%;
+    }
+
+    .section1 {
+        flex-direction: column;
+    }
+
+    .section1Left, .section1Right {
+        width: 100%;
+    }
+
+    .section1 .section1Left h1 {
+        font-size: 3rem;
+        font-weight: 600;
+        padding-right: 12rem;
+        line-height: 3.5rem;
+    }
+
+    .logoIcon.icon7 {
+        bottom: 20%;
+    }
+    /* Remove icon3 and icon4 */
+    .section1Right .logoIcon.icon3, .section1Right .logoIcon.icon4 {
+        display: none;
+    }
+    /* End of removing icon3 and icon4 */
+
+    /* Start of Responsive Navbar */
+    header {
+        top: 0;
+    }
+
+    .navbar {
+        min-height: 50px;
+    }
+
+    .section1 {
+        padding-top: 4rem;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 50px;
+        gap: 0;
+        flex-direction: column;
+        background-color: rgba(25,25,25);
+        width: 100%;
+        align-items: center;
+        transition: 0.3s;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    /* End of Responsive Navbar */
+
+    /* Start of Section 2 */
+    .fourCards {
+        flex-wrap: wrap;
+        align-self: center;
+    }
+
+    .fourCards .card {
+        flex: 1 1 48%;
+    }
+    /* End of Section 2 */
+
+    /* Start of Section 3 */
+    .section3Container {
+        flex-direction: column;
+    }
+
+    .section3Container .section3Right {
+        width: 93%;
+        height: auto;
+        align-self: end;
+    }
+
+    /* End of Section 3 */
+
+    /* Start of Section 4 */
+    .section4Container p {
+        margin: 0 auto;
+    }
+
+    .fourDots {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 2rem;
+        height: 12rem;
+    }
+
+    .insideDot h4 {
+        top: -0.5rem;
+        left: 2rem;
+    }
+
+    .dot1 {
+        width: 7rem;
+    }
+    
+    .dot2 {
+        width: 6rem;
+    }
+    
+    .dot3 {
+        width: 10rem;
+    }
+    
+    .dot4 {
+        width: 6rem;
+    }
+    
+    .line {
+        flex-grow: 1;
+        margin: 3px 0 3px 14.5px;
+        border: none;
+        border-left: 1px solid lightgrey;
+    }
+
+    .section4Image {
+        margin: 0;
+    }
+    /* End of Section 4 */
+    /* Start of Section 5 */
+    .section5Top {
+        flex-direction: column;
+        margin-top: 1rem;
+        gap: 3rem;
+        margin: 0 20% 3rem;
+    }
+
+    .sect5TopImage {
+        max-height: 515px;
+    }
+
+    .sect5DotImage {
+        left: -66px;
+    }
+
+    .logo1 {
+        order: 3;
+    }
+
+    .logo2, .logo3 {
+        display: none;
+    }
+    /* End of Section 5 */
+    /* Start of Section 6 */
+    .section6Bottom {
+        flex-direction: column;
+    }
+    /* End of Section 6 */
+    /* Start of Section 7 */
+    .seventhSection {
+        margin: 1rem;
+    }
+
+    .section7Container {
+        flex-direction: column;
+        padding: 0 5%;
+        padding-top: 3rem;
+    }
+    /* End of Section 7 */
+    /* Start of Section 8 */
+    .section8Top {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .logoAddress {
+        flex-basis: 100%;
+    }
+
+    .company, .features, .documentation, .resources {
+        flex: 1 1 45%;
+    }
+
+    .section8Bottom {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+
+    .eighthSection > p {
+        text-align: left;
+    }
+
+    .footer-2 {
+        margin: 0;
+    }
+    /* End of Section 8 */
+}
+@media (max-width: 700px) {
+    .section1 .section1Left h1 {
+        padding-right: 0rem;
+        line-height: 3.5rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .container1 {
+        padding: 0 5%;
+    }
+
+    .section1 {
+        margin-top: 4rem;
+    }
+
+    .section1 .section1Left h1 {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .fourCards .card {
+        flex: 1 1 50%;
+    }
+
+    .thirdSection {
+        margin: 0 5%;
+    }
+
+    .fourthSection {
+        margin: 0 5%;
+    }
+
+    .section4Container {
+        margin: 0;
+    }
+
+    .section5Top {
+        margin: 0 5%;
+    }
+
+    .sect5DotImage {
+        left: -42px;
+    }
+
+    .logo1, .logo5 {
+        display: none;
+    }
+
+    .logo2 {
+        order: 1;
+        display: block;
+    }
+
+    .logo3 {
+        order: 2;
+        display: block;
+    }
+
+    .logo4 {
+        order: 3;
+        display: block;
+    }
+
+    .section5Bottom {
+        padding: 0 10%;
+    }
+
+    .sixthSectionHR {
+        width: 100%;
+    }
+
+    .section6Right {
+        flex-direction: column;
+    }
+
+    .inputForm {
+        flex-direction: column;
+    }
+
+    .firstName, .lastName, .workEmail, .website, .budget, .country {
+        width: 100%;
+    }
+
+    .firstNameinput, .lastNameinput, .workEmailinput, .websiteinput, .selectBudget, .form-control {
+        height: 3rem;
+    }
+}
